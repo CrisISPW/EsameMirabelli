@@ -1,20 +1,21 @@
 package com.example.multiple;
 
 import java.util.Scanner;
+import static java.lang.System.*;
 
 
 
-public class multiple {
+public class Multiple {
     public static void main(String[] args){
 
-        Scanner reader = new Scanner(System.in);
-        System.out.println("Enter a number:");
+        Scanner reader = new Scanner(in);
+        out.print("Enter a number:");
         int num1 = reader.nextInt();
 
         if ((num1 % 2) == 0) {
-            System.out.println("Yes, " + num1 + " is a multiple of 2");
+            out.print("Yes, " + num1 + " is a Multiple of 2");
         } else {
-            System.out.println("No, " + num1 + " is not a multiple of 2");
+            out.print("No, " + num1 + " is not a Multiple of 2");
 
         }
         reader.close();
